@@ -1,0 +1,11 @@
+services:
+  wireproxy:
+    image: wireproxy
+    container_name: wireproxy
+    environment:
+      - PORT=40000
+      - USERNAME=user
+      - PASSWORD=password
+    ports:
+      - "40000:40000"
+    restart: always
