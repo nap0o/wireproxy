@@ -1,6 +1,6 @@
 services:
   wireproxy:
-    image: wireproxy
+    image: nap0o/wireproxy
     container_name: wireproxy
     environment:
       - PORT=40000
