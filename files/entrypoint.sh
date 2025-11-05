@@ -46,7 +46,7 @@ DNS = 1.1.1.1,8.8.8.8,8.8.4.4,2606:4700:4700::1111,2001:4860:4860::8888,2001:486
 
 [Peer]
 PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-Endpoint = 162.159.195.4:934
+Endpoint = engage.cloudflareclient.com:4500
 
 [Socks5]
 BindAddress = 0.0.0.0:${PORT}
